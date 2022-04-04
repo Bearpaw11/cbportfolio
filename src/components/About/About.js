@@ -8,7 +8,7 @@ const About = () => {
       <PageHeader title={'About Me'}/>
       <div className={classes.Container}>
         <div className={classes.Text}>
-          <h2>Hello,</h2>
+          <h2>Hello, I'm Chris</h2>
           <p>
           I am a Full Stack Web Developer who is a critical thinker, team player and someone who loves a challenge. I have a Full Stack Web Development certificate from The University of Arizona. I enjoy front end programming and have extensive experience using React and continue to learn more and more. I have built this portfolio to help showcase my skills with front end programs such as HTML5, CSS, JavaScript, Bootstrap, React as well as back end programs and frameworks such as Node.js, express, MongoDB and MySQL.
           <br/>

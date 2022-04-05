@@ -1,0 +1,48 @@
+.Projects {
+  background-color: black;
+}
+
+.Projects .Paragraph {
+  width :65%
+}
+
+.Projects .AppContainer .Thumbnail img {
+  width: 400px;
+  height: 250px;
+}
+
+.Projects .Apps .AppContainer {
+  display: flex;
+  background: black;
+  margin-bottom: 5%;
+  height: 340px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px white;
+}
+
+.Projects .Apps {
+  width: 70%
+}
+
+.Projects .Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+
+}
+
+.Projects .AppContainer .Text {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.Projects .AppContainer .Text .Title {
+  font-weight: 800;
+}
+
+.Projects .AppContainer .Thumbnail {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+
+}

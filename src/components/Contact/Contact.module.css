@@ -1,0 +1,33 @@
+.Contacts {
+  background-color: black;
+}
+
+.Contact {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.Contacts .Contact .Email{
+  color: white;
+  Padding: 2%;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.Contacts .Contact .Phone{
+  color: white;
+  Padding: 2%;
+  font-weight: 900;
+  
+}
+
+ .Contacts .Contact .ContactIcons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Contacts .Contact .ContactIcons svg {
+  cursor: pointer;
+}

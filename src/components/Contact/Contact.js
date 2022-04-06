@@ -12,7 +12,7 @@ const mailTo = () => {
 
 const Contact = () => {
   return (
-    <div className={classes.Contacts}>
+    <div className={classes.Contacts} id="contact">
       <PageHeader title={"Contact"}/>
       <div className={classes.Contact}>
         <div className={classes.ContactIcons}>

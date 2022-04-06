@@ -44,7 +44,7 @@ const weatherGithub = <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dash
 
 const Projects = () => {
   return (
-    <div className={classes.Projects}>
+    <div className={classes.Projects} id="projects">
       <PageHeader title={"Projects"} />
       <div className={classes.Content}>
         <div className={classes.Paragraph}>

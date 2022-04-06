@@ -14,6 +14,7 @@
   flex-wrap: wrap;
   margin-left: 10%;
   margin-right: 10%;
+  justify-content: space-around;
 }
 
 .Skills .Container .List {
@@ -41,10 +42,10 @@
 }
 
 .Languages {
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
-  height: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  height: 40%;
   border-radius: 9px;
   margin-bottom: 50px;
 }
@@ -54,3 +55,4 @@
   color: #00d4ff;
   margin-bottom: 4px;
 }
+

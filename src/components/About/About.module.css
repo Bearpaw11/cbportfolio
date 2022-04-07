@@ -29,3 +29,24 @@
 .AboutMe .Container .Text h2{
   font-weight: 800;
 } 
+
+@media (max-width: 500px) {
+  .AboutMe .Container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px){
+.AboutMe .Container .Text{
+  width: 80%;
+  margin-left: 3%;
+  }
+}
+
+@media (max-width: 500px){
+  .AboutMe .Container .Photo {
+    width: 70%;
+    }
+  }
+

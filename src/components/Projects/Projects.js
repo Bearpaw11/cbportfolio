@@ -3,6 +3,7 @@ import PageHeader from "./../PageHeader/PageHeader";
 import bottomsup from '../../images/bottomsup.png'
 import speech from '../../images/speech.png'
 import weather from '../../images/weather.png'
+import fallingStars from '../../images/fallingstars.png'
 
 const Apps = (thumbnail,title, description, technologies, appLink, gitHub) => {
   return (
@@ -20,6 +21,12 @@ const Apps = (thumbnail,title, description, technologies, appLink, gitHub) => {
     </div>
   )
 }
+
+const fallingStarsTitle ="Falling Stars Design"
+const fallingStarsDescription="The is website that I was contracted to build for a local residential design company. This site is used to market her company and display projects that she has completed."
+const fallingStarsTechnologies="Technologies used: React, React-Router, CSS, Bootstrap, Netlify, GoDaddy for hosting"
+const fallingStarsLink= <a href="https://fallingstarsdesign.com/" target='-blank'>App</a>
+const fallingStarsGithub= <a href="https://github.com/Bearpaw11/falling_stars" target="_blank">GitHub Repo</a>
 
 const speechTitle= "Speech Therapy"
 const speechDescription = "This app allows you to practice your speech using voice-to-text technology. You will receive analysis on filler words you may be saying and the length of your speech."
@@ -57,6 +64,7 @@ const Projects = () => {
           </p>
         </div>
         <div className={classes.Apps}>
+          {Apps(fallingStars, fallingStarsTitle, fallingStarsDescription, fallingStarsTechnologies, fallingStarsLink, fallingStarsGithub)}
           {Apps(speech, speechTitle, speechDescription, speechTechnologies, speechLink, speechGithub)}
           {Apps(bottomsup, bottomsupTitle, bottomsupDescription, bottomsupTechnologies, bottomsupLink, bottomsupGithub)}
           {Apps(weather, weatherTitle, weatherDescription, weatherTechnologies, weatherLink, weatherGithub)}

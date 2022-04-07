@@ -9,34 +9,35 @@ body {
 
 html {
   scroll-behavior: smooth;
+  font-size: 14px;
 }
 
 h1 {
   font-weight: 800;
-  font-size: 3.2rem;
+  font-size: calc(1rem + 3vw);
   color: white;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: calc(1rem + 1.5vw);
   color: white;
 }
 
 p {
   font-weight: 500px;
-  font-size: 1.5rem;
+  font-size: calc(.75rem + 1vw);
   color: white;
 }
 
 a {
   font-weight: 900px;
-  font-size: 1.5rem;
+  font-size:  calc(.6rem + 1vw);
   color: white;
 }
 
 li {
-  font-size: 1.3rem;
+  font-size: calc(.6rem + 1vw);
 }
 
 code {

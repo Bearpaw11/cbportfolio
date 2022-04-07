@@ -29,8 +29,8 @@
   
 }
 
-.Hello {
-  font-size: 68px;
+.Home .Container .Hello {
+  font-size: calc(1.76rem + 3vw);
 }
 
 .Home .code {

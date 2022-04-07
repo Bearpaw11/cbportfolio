@@ -46,7 +46,7 @@ const Skills = () => {
   return (
     <div className={classes.Skills} id="skills">
       <PageHeader title={'Skills'} />
-      <p>Below are some programming languages, toolkits, frameworks and libraries that I have worked with. I am a life long learner so this list continues to grow!
+      <p>Below are some programming languages, toolkits, frameworks and libraries that I have worked with. I am a life long learner so this list will continue to grow!
       </p>
       <img className={classes.Languages} src={Languages} alt="Languages"></img>
       <div className={classes.Container}>

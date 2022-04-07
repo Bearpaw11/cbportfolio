@@ -12,27 +12,31 @@ html {
 }
 
 h1 {
-  font-weight: 500;
-  font-size: 45px;
+  font-weight: 800;
+  font-size: 3.2rem;
   color: white;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 23px;
+  font-size: 1.5rem;
   color: white;
 }
 
 p {
   font-weight: 500px;
-  font-size: 21px;
+  font-size: 1.5rem;
   color: white;
 }
 
 a {
   font-weight: 900px;
-  font-size: 22px;
+  font-size: 1.5rem;
   color: white;
+}
+
+li {
+  font-size: 1.3rem;
 }
 
 code {

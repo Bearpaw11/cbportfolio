@@ -36,6 +36,14 @@
   font-size: calc(1.76rem + 3vw);
 } 
 
+@media (max-width:1000px){
+  .Home {
+    padding-top: 8%;
+  }
+  .Home .Headshot {
+    Width: 40vh;
+  }
+}
 
 
 @media (max-width:740px){

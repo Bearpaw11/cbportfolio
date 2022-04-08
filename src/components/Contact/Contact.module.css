@@ -11,14 +11,16 @@
 .Contacts .Contact .Email{
   color: white;
   Padding: 2%;
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 2rem;
   cursor: pointer;
 }
 
 .Contacts .Contact .Phone{
   color: white;
   Padding: 2%;
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 2rem;
   
 }
 
@@ -31,3 +33,47 @@
 .Contacts .Contact .ContactIcons svg {
   cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+  .Contacts .Contact .Email{
+    font-size: 1rem;
+  }
+  
+  .Contacts .Contact .Phone{
+    font-size: 1rem;
+    
+  }
+} 
+
+@media (max-width: 584px) {
+  .Contacts .Contact .Email{
+    font-size: .8rem;
+  }
+  
+  .Contacts .Contact .Phone{
+    font-size: .8rem;
+    
+  }
+} 
+
+@media (max-width: 485px) {
+  .Contacts .Contact .Email{
+    font-size: .6rem;
+  }
+  
+  .Contacts .Contact .Phone{
+    font-size: .6rem;
+    
+  }
+} 
+
+@media (max-width: 393px) {
+  .Contacts .Contact .Email{
+    font-size: .5rem;
+  }
+  
+  .Contacts .Contact .Phone{
+    font-size: .5rem;
+    
+  }
+} 

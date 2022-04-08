@@ -25,7 +25,7 @@
   right: 10%;
   top: 20%;
   -webkit-filter: invert(50%); /* Safari/Chrome */
-    filter: invert(40%);
+    filter: invert(20%);
   
 }
 
@@ -41,3 +41,28 @@
   left: 2%;
 }
 
+@media (max-width: 792px) {
+  .Home .World {
+    width: 60%;
+    max-width: 500px;
+    position: absolute;
+    right: 20%;
+    top: 35%;
+    -webkit-filter: invert(50%); /* Safari/Chrome */
+      filter: invert(20%);
+    
+  }
+}
+
+@media (max-width: 1125px) {
+  .Home .World {
+    width: 60%;
+    max-width: 500px;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    -webkit-filter: invert(50%); /* Safari/Chrome */
+      filter: invert(20%);
+    
+  }
+}

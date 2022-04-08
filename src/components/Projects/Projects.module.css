@@ -46,6 +46,32 @@
 .Projects .AppContainer .Thumbnail {
   padding: 2.5% 2.5% 2.5% 2.5%;
   position: relative;
-  width:45%
+  width:45%;
 }
 
+@media (max-width:756px ) {
+  .Projects .Apps .AppContainer {
+    flex-direction: column;
+    
+  }
+
+  .Projects .Apps .Text {
+    width: 80%;
+  }
+    .Projects .Apps .Thumbnail {
+      width: 80%;
+      padding-top: 5%;
+    }
+}
+
+@media (max-width:500px ) {
+
+
+  .Projects .Apps .Text {
+    width: 90%;
+  }
+    .Projects .Apps .Thumbnail {
+      width: 90%;
+      padding-top: 5%;
+    }
+}

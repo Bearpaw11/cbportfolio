@@ -1,68 +1,74 @@
 .Home {
   background: rgb(0,212,255);
-background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,81,93,1) 100%);
-  display: flex;
-  height: 85vh;
-  padding-top: 80px;
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,81,93,1) 100%);
+  
+  padding-top: 5%;
+  padding-bottom: 5%;
   position: relative;
+  
 }
 
-.Home .Container {
-  position: absolute;
-  top: 15%;
-  left: 2%;
-  color: white
-}
+/* .Home .Container {
+  display: flex;
+  flex-direction: column;
+} */
+
 
 .Home .Container h1 {
-  margin: 0;
+  
+  text-align: center;
+  
+}
+.Home .Container h2 {
+  text-align: center;
 }
 
-.Home .World {
-  width: 60%;
+.Home .Headshot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 500px;
-  position: absolute;
-  right: 10%;
-  top: 20%;
-  -webkit-filter: invert(100%); /* Safari/Chrome */
-    filter: invert(100%);
-  
+  Width: 80vh;
+  border-radius: 50%;
 }
 
 .Home .Container .Hello {
   font-size: calc(1.76rem + 3vw);
-}
+} 
 
-.Home .code {
-  width: 20%;
-  max-width: 150px;
-  position: absolute;
-  bottom: 2%;
-  left: 2%;
-}
 
-@media (max-width: 792px) {
-  .Home .World {
-    width: 60%;
-    max-width: 500px;
-    position: absolute;
-    right: 20%;
-    top: 35%;
-    -webkit-filter: invert(100%); /* Safari/Chrome */
-      filter: invert(100%);
-    
+
+@media (max-width:740px){
+  .Home {
+    padding-top: 10%;
+  }
+  .Home .Headshot {
+    Width: 40vh;
   }
 }
 
-@media (max-width: 1125px) {
-  .Home .World {
-    width: 60%;
-    max-width: 500px;
-    position: absolute;
-    right: 10%;
-    top: 30%;
-    -webkit-filter: invert(100%); /* Safari/Chrome */
-      filter: invert(100%);
-    
+@media (max-width:520px){
+  .Home {
+    padding-top: 15%;
+  }
+  .Home .Headshot {
+    Width: 40vh;
+  }
+}
+
+@media (max-width:400px){
+  .Home {
+    padding-top: 20%;
+  }
+  .Home .Headshot {
+    Width: 30vh;
+  }
+}
+@media (max-width:325px){
+  .Home {
+    padding-top: 25%;
+  }
+  .Home .Headshot {
+    Width: 30vh;
   }
 }

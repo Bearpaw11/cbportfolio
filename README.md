@@ -1,4 +1,4 @@
-This is a portfilio I have put together to using React to showcase my skills and projects I have been working on. 
+This is a portfolio I have put together using React to showcase my skills and projects I have been working on. 
 
 Here is a link to the site. https://chris-behrens.com/
 

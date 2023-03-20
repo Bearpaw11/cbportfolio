@@ -11,12 +11,16 @@ const backendSkills =
     <li>NPM</li>
     <li>MySQL</li>
     <li>MongoDB</li>
-    <li>BACKEND</li>
+    <li>Snowflake</li>
+    <li>Kubernetes</li>
+    <li>Docker</li>
+    <li>Postman</li>
   </ul>
 
 const frontendSkills = 
   <ul>
     <li className={classes.Title}>FRONTEND</li>
+    <li>Java</li>
     <li>ReactJS</li>
     <li>Redux</li>
     <li>JavaScript</li>
@@ -38,6 +42,7 @@ const otherSkills =
     <li>Firebase</li>
     <li>Netlify</li>
     <li>TDD</li>
+    <li>Agile</li>
   </ul>
 
 const totalSkills = [frontendSkills, backendSkills, otherSkills]

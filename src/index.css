@@ -24,6 +24,12 @@ h2 {
   color: white;
 }
 
+h5 {
+  font-weight: 600;
+  font-size: calc(1rem + 1.0vw);
+  color: white;
+}
+
 p {
   font-weight: 500px;
   font-size: calc(.75rem + 1vw);

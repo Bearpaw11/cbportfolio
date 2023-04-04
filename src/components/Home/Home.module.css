@@ -8,11 +8,9 @@
   
 }
 
-/* .Home .Container {
-  display: flex;
-  flex-direction: column;
-} */
-
+h2 {
+  margin-top: -30px;
+}
 
 .Home .Container h1 {
   
@@ -21,6 +19,19 @@
 }
 .Home .Container h2 {
   text-align: center;
+}
+
+h5 {
+  margin-top: -40px;
+  text-align: center;
+  cursor: pointer;
+  
+  border:1px solid;
+  padding: 3px;
+}
+
+h5:hover {
+  background-color: black;
 }
 
 .Home .Headshot{
@@ -36,12 +47,46 @@
   font-size: calc(1.76rem + 3vw);
 } 
 
+.Resume {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media (max-width:1300px) {
+  .Resume {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+   }
+  }
+
+@media (max-width:1000px) {
+.Resume {
+  width: 175px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  text-align: center;
+ }
+}
+
 @media (max-width:1000px){
   .Home {
     padding-top: 8%;
   }
   .Home .Headshot {
     Width: 40vh;
+  }
+  h1{
+    padding-bottom: 15px;
+  }
+  h2 {
+    padding-bottom: 15px;
   }
 }
 
@@ -52,6 +97,12 @@
   }
   .Home .Headshot {
     Width: 40vh;
+  }
+  h1{
+    padding-bottom: 10px;
+  }
+  h2 {
+    padding-bottom: 10px;
   }
 }
 

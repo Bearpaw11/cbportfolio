@@ -34,20 +34,6 @@ const speechTechnologies = "Technologies used: React, MySQL/Sequelize, Nodemaile
 const speechLink = <a href="https://speechtherapyapp.herokuapp.com/" target='-blank'>App</a>
 const speechGithub =  <a href="https://github.com/Bearpaw11/speech_app/" target="_blank">GitHub Repo</a>
 
-const bottomsupTitle= "Bottoms Up"
-const bottomsupDescription = "This is a Full Stack social media app aimed at those who have an interest in consuming adult libations, whether at home or out and about, painting the town red! "
-const bottomsupTechnologies = "Technologies used: Node.js, express, bcrypt, Passport, MySQL, sequelize, CSS, Bootstrap, Heroku"
-const bottomsupLink = <a href="https://bottoms-up-app.herokuapp.com/" target='-blank'>App</a>
-const bottomsupGithub = <a href="https://github.com/zace118/BottomsUp" target="_blank">GitHub Repo</a>
-
-const weatherTitle= "Weather Dashboard"
-const weatherDescription = "Enter a city in the search box and the current weather pops up including a 5 day forecast. The five most recent cities are saved in local stoarge and shown on the page."
-const weatherTechnologies = "Technologies used: HTML, CSS, JavaScript, jQuery, OpenWeatherMap API and moment.js"
-const weatherLink = <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'> App</a>
-const weatherGithub = <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">GitHub Repo</a>
-
-
-
 
 const Projects = () => {
   return (
@@ -66,8 +52,6 @@ const Projects = () => {
         <div className={classes.Apps}>
           {Apps(fallingStars, fallingStarsTitle, fallingStarsDescription, fallingStarsTechnologies, fallingStarsLink, fallingStarsGithub)}
           {Apps(speech, speechTitle, speechDescription, speechTechnologies, speechLink, speechGithub)}
-          {Apps(bottomsup, bottomsupTitle, bottomsupDescription, bottomsupTechnologies, bottomsupLink, bottomsupGithub)}
-          {Apps(weather, weatherTitle, weatherDescription, weatherTechnologies, weatherLink, weatherGithub)}
         </div>
       </div>
     </div>

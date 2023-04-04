@@ -16,9 +16,9 @@ const About = () => {
           I have experience working as a sofware developer at United Health Group where I developed and maintained our BCP mirroring program which mirrors over 50 billion rows of data from our on prem SQL Server to Snowflake. My experience as a Systems Engineer has given me knowledge of the cutting edge hardware and software being used to accelerate growth and new technologies in this space. I also have a strong business background that includes a Bachelor’s degree in Finance that can be used to put a monetary perspective on projects. I am excited to leverage my expertise, education and knowledge to become an asset to a software development team.
           </p>
         </div>
-        <div className={classes.Photo}>
+        {/* <div className={classes.Photo}>
           <img className={classes.Me} src={Chris} alt={"Photo of Chris"}></img>
-        </div>
+        </div> */}
       </div>
       
     </div>

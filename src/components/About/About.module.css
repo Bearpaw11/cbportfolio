@@ -4,13 +4,13 @@
 }
 
 
-.AboutMe .Container .Photo .Me {
-  width: 90%;
-  border-radius: 10%;
-  max-width: 500px;;
+.AboutMe .Container {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 
-.AboutMe .Container .Photo {
+/* .AboutMe .Container .Photo {
   display: flex;
   width: 50%;
   justify-content: center;
@@ -48,5 +48,5 @@
   .AboutMe .Container .Photo {
     width: 70%;
     }
-  }
+  } */
 

@@ -34,7 +34,7 @@ const TDlink =  <a href="https://www.tdsynnex.com/na/us//" target="_blank">tdsyn
 
 const Projects = () => {
   return (
-    <div className={classes.Projects} id="projects">
+    <div className={classes.Projects} id="experience">
       <PageHeader title={"Experience"} />
       <div className={classes.Content}>
         <div className={classes.Apps}>

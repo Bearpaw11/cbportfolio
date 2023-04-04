@@ -1,8 +1,6 @@
 import classes from "./Projects.module.css";
 import PageHeader from "./../PageHeader/PageHeader";
-import bottomsup from '../../images/bottomsup.png'
 import speech from '../../images/speech.png'
-import weather from '../../images/weather.png'
 import fallingStars from '../../images/fallingstars.png'
 
 const Apps = (thumbnail,title, description, technologies, appLink, gitHub) => {

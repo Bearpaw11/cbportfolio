@@ -2,6 +2,7 @@ import classes from "./Projects.module.css";
 import PageHeader from "./../PageHeader/PageHeader";
 import speech from '../../images/speech.png'
 import fallingStars from '../../images/fallingstars.png'
+import trackThat from '../../images/trackthat.png'
 
 const Apps = (thumbnail,title, description, technologies, appLink, gitHub) => {
   return (
@@ -19,6 +20,15 @@ const Apps = (thumbnail,title, description, technologies, appLink, gitHub) => {
     </div>
   )
 }
+
+
+
+const TrackThatTitle ="Track That Track"
+const TrackThatDescription="Track That Track is a vinyl record management system. A user may sign up, signin and create a visual representation of all the records they own or want to add to their wish list."
+const TrackThatTechnologies="Technologies used: Java, Springboot, MySQL, clearDB MYSQL, Heroku, JavaScript, JSP"
+const TrackThatLink= <a href="https://trackthattrackapp.herokuapp.com/" target='-blank'>App</a>
+const TrackThatGithub= <a href="https://github.com/Bearpaw11/TrackThat" target="_blank">GitHub Repo</a>
+
 
 const fallingStarsTitle ="Falling Stars Design"
 const fallingStarsDescription="The is website that I was contracted to build for a local residential design company. This site is used to market her company and display projects that she has completed."
@@ -48,6 +58,7 @@ const Projects = () => {
           </p>
         </div>
         <div className={classes.Apps}>
+          {Apps(trackThat, TrackThatTitle, TrackThatDescription, TrackThatTechnologies, TrackThatLink, TrackThatGithub)}
           {Apps(fallingStars, fallingStarsTitle, fallingStarsDescription, fallingStarsTechnologies, fallingStarsLink, fallingStarsGithub)}
           {Apps(speech, speechTitle, speechDescription, speechTechnologies, speechLink, speechGithub)}
         </div>

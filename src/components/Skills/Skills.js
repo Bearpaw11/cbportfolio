@@ -22,7 +22,7 @@ const frontendSkills =
     <li className={classes.Title}>FRONTEND</li>
     <li>Java</li>
     <li>ReactJS</li>
-    <li>Redux</li>
+    <li>JSP</li>
     <li>JavaScript</li>
     <li>JSX</li>
     <li>ES6</li>

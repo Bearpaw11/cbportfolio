@@ -5,10 +5,10 @@ import Languages from './../../images/languages.png'
 
 const backendSkills = 
   <ul>
-    <li className={classes.Title}>BACKEND</li>
-    <li>Express.js</li>
-    <li>Node</li>
-    <li>NPM</li>
+    <li className={classes.Title}>BACKEND/DATABASE</li>
+    <li>Java</li>
+    <li>Postgres</li>
+    <li>Spring Boot</li>
     <li>MySQL</li>
     <li>MongoDB</li>
     <li>Snowflake</li>
@@ -20,8 +20,8 @@ const backendSkills =
 const frontendSkills = 
   <ul>
     <li className={classes.Title}>FRONTEND</li>
-    <li>Java</li>
-    <li>ReactJS</li>
+    <li>React</li>
+    <li>Thymeleaf</li>
     <li>JSP</li>
     <li>JavaScript</li>
     <li>JSX</li>
